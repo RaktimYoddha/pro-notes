@@ -21,7 +21,7 @@ app.get("/",(req,res)=>{
 })
 
 
-app.listen(port,async()=>{
+app.listen(port, async()=>{
 
     try {
         await connection()
@@ -31,6 +31,6 @@ app.listen(port,async()=>{
     }
 
 
-    console.log("Server is running on port number",4000)
+    console.log("Server is running on port number", port);
 
 })
