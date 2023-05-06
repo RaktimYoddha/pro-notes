@@ -27,7 +27,7 @@ app.listen(port, async()=>{
         await connection()
         console.log("database is connected")
     } catch (error) {
-        console.error(`Error occoured at ${__filename}.connection: ${error}`);
+        console.error(`Error occurred at ${__filename}.connection: ${error}`);
     }
 
 
