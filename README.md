@@ -17,8 +17,7 @@
 <h3 align="center"> Short Brief </h3>
 
 <p align="center">
-Type-writer is a documenting web application with the support of many modern techniques to make documenting easier and faster. The web application itself contains clean and interactive UI making it easier to navigate. Some of the most promising features include markdown editing, copy pasting of images and resizing, mathematical equation formatting, syntax highlighter for code blocks etc. The application also contains user authentication through login/sign-up feature.
- Type-writer is also well equipped with version control to keep a track record for all saved versions of a file in the cloud. Users are also given choices in 3 different formats to download their files in local environment (i.e PDF format, text format, code block format).
+
 
   </p>
 
@@ -152,7 +151,7 @@ If you dont have [MongoDB]() you use [MongoDB Atls]()
 
 1. Clone the repo
  ```bash
- git clone https://github.com/Abusayid693/Type-writer.git
+ git clone https://github.com/RaktimYoddha/pro-notes.git
 ```
 
 2. Create a file called .env in the Backend directory of your project:
@@ -187,7 +186,7 @@ Warning: Treat your tokens like passwords and keep them secret. When working wit
 
 4. Starting the server application.
 ```bash
-cd Type-writer && cd Backend 
+cd pro-notes && cd pro-notes-backend 
 npm install
 Nodemon index.js
 ```
@@ -195,7 +194,7 @@ Nodemon index.js
 
 5. Starting the Client application.
 ```bash
-cd Type-writer && cd App 
+cd pro-notes && cd pro-notes-frontend 
 npm install
 npm start
 ```
@@ -231,93 +230,6 @@ prefix " Numerical digits "                           -- for Ordered Lists eleme
 ```
 `user must press Space after entering prefix`    
 
-
-
-### [Equation formatting]()
-
-> ***The equation formatting features supports all Algebric, triagnometric and Matrices formatting, following with prefix " $ ".***
-
-![](https://i.imgur.com/9DsfOrD.gif)
-
-
-
-- ####  Algebric equations
-![](https://i.imgur.com/5oCKi1G.png)
-- ####  Tragnometric and  equations
-![](https://i.imgur.com/ZCj3MkC.png)
-- ####  Matrices 
-
-![](https://i.imgur.com/dQE81Qr.png)
-     
-### [Horizontal lines]()
-
- ```bash
-prefix " --- "                                     --  for Horizontal lines
-```
-
-### [Coding Blocks]()
-
-> The coding blocks supports syntaxhighlighter for `javascript code only` ( will be updated in future versions).
-
-![](https://i.imgur.com/TL7GjRn.gif)
-
-```bash
- prefix " ''' "                                  -- for syntaxhighlighting editor
- ```
-![](https://i.imgur.com/fThdc0x.png)    
-
-
----
-
-## 2. [Image copy pasting and resizing]()
-
-Type-writer supports copy pasting images over browsers and resize them accordingly.
-
-- ***Copy images over internet and paste them.***
-- ***Resize them accoring to your need.***
-
-![](https://i.imgur.com/7gpaZTo.gif)
-
-
-## 3. [color palette]()
-
-Customize background colours,text colours as per your need, the color palette also supports hex codes.
-
-![](https://i.imgur.com/B1BecXb.gif)
-
-![](https://i.imgur.com/nLEJadt.png)
-
-## 4. [Version control]()
-
-
-**Version Control** tracks and manage changes in your typewriter files,it keeps track of every modification to the files in our database hosted on the cloud , So user dont need to hustle over loosing their data. It also allows sharing of files with others for ***modification keeping the original version safe.***
-
-![Gif here](https://i.imgur.com/lMv7Awg.png)
-
-***The sidebar contains date and time of saved versions for iterating through different versions of your files***
-
-
-
-
-
-## 5. [Additional features]()
-
-- #### Choose your fonts - The fonts support can be furthur extended by adding additional fonts.
-
-![](https://i.imgur.com/AK9GuTC.png)
-
-- #### Get downloadable document
-
-|                 |            |
-| --------------- | --------------- 
-| PDF|  Whole type-writer contents in pdf formats |
-| Text| Only text contents of the type-writer. |
-| Code block | Downloads coding blocks only in .js format |
-
-
-![](https://i.imgur.com/y6fsQfD.png)
-
----
 
 # 🧰 Tools & Packages
 
