@@ -53,13 +53,7 @@
 
 
 
-[](https://imgur.com/EXmDWRR.png)
-
-[Imgur](https://imgur.com/EUkGU7v)
-
-Get youtube [demo]() here
-
-
+[](https://i.imgur.com/EXmDWRR.png)
 
 --- 
 # 👨‍💻 Getting started
