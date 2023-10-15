@@ -22,11 +22,11 @@
   </p>
 
 ## Contents:
-- [About]()
-- [Project Starter]()
-- [Features]()
-- [Tools and Packages]()
-- [Deployment]()
+- About
+- Project Starter
+- Features
+- Tools and Packages
+- Deployment
 
 ---
 
