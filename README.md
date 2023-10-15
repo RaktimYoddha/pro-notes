@@ -49,9 +49,6 @@
 
 </p>
 
-> Type-writer is a documenting web application that supports markdown editing, copy pasting images etc.
-
-
 
 [](https://i.imgur.com/EXmDWRR.png)
 
