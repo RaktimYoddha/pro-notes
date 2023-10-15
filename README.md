@@ -94,37 +94,35 @@ This section will work you through how you can get started with the project.
 │       │    
 │       ├── <strong>assets</strong>
 │       │ 
-│       ├── <strong>components</strong>
-│       │   │  
+│       ├── <strong>components</strong> 
 │       │   ├── <strong>Homepage</strong>
-│       │   │           └──<strong>Navbar</strong>
-│       │   │  
+│       │   │   └──<strong>Navbar</strong>
 │       │   └──<strong>Notespage</strong>
-│       │              └──<strong>NoteCard</strong>
+│       │      └──<strong>NoteCard</strong>
 │       │    
 │       ├── <strong>constants</strong>
-│       │           └──<strong>config.js</strong>
+│       │   └──<strong>config.js</strong>
 │       │  
 │       ├── <strong> Pages</strong>
-│       │    ├── <strong>Homepage.jsx</strong>
-│       │    ├── <strong>LoginPage.jsx</strong>
-│       │    ├── <strong>NotesPage.jsx</strong>
-│       │    └── <strong>SignupPage.jsx</strong>
+│       │   ├── <strong>Homepage.jsx</strong>
+│       │   ├── <strong>LoginPage.jsx</strong>
+│       │   ├── <strong>NotesPage.jsx</strong>
+│       │   └── <strong>SignupPage.jsx</strong>
 │       │ 
 │       ├── <strong>Redux</strong>
-│       │      ├── <strong>notes</strong>
-│       │      │           ├──<strong>note.action.js</strong>
-│       │      │           ├──<strong>note.reducer.js</strong>
-│       │      │           └──<strong>note.action.js</strong>
-│       │      ├── <strong>users</strong>
-│       │      │           ├──<strong>user.action.js</strong>
-│       │      │           ├──<strong>user.reducer.js</strong>
-│       │      │           └──<strong>user.action.js</strong>
-│       │      └── <strong>store.js</strong>
+│       │   ├── <strong>notes</strong>
+│       │   │   ├──<strong>note.action.js</strong>
+│       │   │   ├──<strong>note.reducer.js</strong>
+│       │   │   └──<strong>note.action.js</strong>
+│       │   ├── <strong>users</strong>
+│       │   │   ├──<strong>user.action.js</strong>
+│       │   │   ├──<strong>user.reducer.js</strong>
+│       │   │   └──<strong>user.action.js</strong>
+│       │   └── <strong>store.js</strong>
 │       │ 
 │       ├── <strong>routes</strong>
-│       │      ├── <strong>AllRoutes.jsx</strong>
-│       │      └── <strong>PrivateRoute.jsx</strong>
+│       │   ├── <strong>AllRoutes.jsx</strong>
+│       │   └── <strong>PrivateRoute.jsx</strong>
 │       │
 └── README.md
 </pre>
