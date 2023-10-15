@@ -96,9 +96,15 @@ This section will work you through how you can get started with the project.
 │       │ 
 │       ├── <strong>components</strong> 
 │       │   ├── <strong>Homepage</strong>
+│       │   │   │
 │       │   │   └──<strong>Navbar</strong>
+│       │   │      └──<strong>index.jsx</strong>
+│       │   │      └──<strong>Navbar.jsx</strong>
+│       │   │
 │       │   └──<strong>Notespage</strong>
 │       │      └──<strong>NoteCard</strong>
+│       │         └──<strong>index.jsx</strong>
+│       │         └──<strong>NoteCard.jsx</strong>
 │       │    
 │       ├── <strong>constants</strong>
 │       │   └──<strong>config.js</strong>
@@ -110,20 +116,23 @@ This section will work you through how you can get started with the project.
 │       │   └── <strong>SignupPage.jsx</strong>
 │       │ 
 │       ├── <strong>Redux</strong>
+│       │   │
 │       │   ├── <strong>notes</strong>
 │       │   │   ├──<strong>note.action.js</strong>
 │       │   │   ├──<strong>note.reducer.js</strong>
 │       │   │   └──<strong>note.action.js</strong>
+│       │   │
 │       │   ├── <strong>users</strong>
 │       │   │   ├──<strong>user.action.js</strong>
 │       │   │   ├──<strong>user.reducer.js</strong>
 │       │   │   └──<strong>user.action.js</strong>
+│       │   │
 │       │   └── <strong>store.js</strong>
 │       │ 
-│       ├── <strong>routes</strong>
-│       │   ├── <strong>AllRoutes.jsx</strong>
-│       │   └── <strong>PrivateRoute.jsx</strong>
-│       │
+│       └── <strong>routes</strong>
+│           ├── <strong>AllRoutes.jsx</strong>
+│           └── <strong>PrivateRoute.jsx</strong>
+│       
 └── README.md
 </pre>
 
