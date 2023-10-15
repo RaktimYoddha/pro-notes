@@ -88,55 +88,44 @@ This section will work you through how you can get started with the project.
 │   │  
 │   └── index.js
 │ 
-├── <strong>App</strong>
+├── <strong>Pro-notes-frontend</strong>
 │   ├── <strong>public</strong>
 │   └── <strong>src</strong>
+│       │    
+│       ├── <strong>assets</strong>
+│       │ 
 │       ├── <strong>components</strong>
 │       │   │  
-│       │   ├── <strong>Assets</strong>
+│       │   ├── <strong>Homepage</strong>
+│       │   │           └──<strong>Navbar</strong>
 │       │   │  
-│       │   ├── <strong>Downloading-formats</strong>
-│       │   │  
-│       │   ├── <strong>Primary Sidebar</strong>
-│       │   │   
-│       │   ├── <strong>Side bar routes</strong>
-│       │   │  
-│       │   ├── <strong>resizable</strong>
-│       │   │ 
-│       │   ├── <strong>Version-control</strong>
-│       │   │ 
-│       │   ├── <strong>Code-block</strong>
-│       │   │ 
-│       │   ├── <strong>User</strong>
-│       │   │ 
-│       │   └──<strong>sub-components</strong>
-│       │              ├──<strong>page-padding</strong>
-│       │              ├──<strong>check-boxes</strong>
-│       │              ├──<strong>color-picker</strong>
-│       │              └──<strong>yping-effect</strong> 
+│       │   └──<strong>Notespage</strong>
+│       │              └──<strong>NoteCard</strong>
 │       │    
-│       ├── <strong>Pages</strong>
-│       │     ├── <strong>Main</strong>  
-│       │     └──<strong>Home-page</strong>
+│       ├── <strong>constants</strong>
+│       │           └──<strong>config.js</strong>
 │       │  
-│       ├── <strong> lib</strong>
-│       │      ├── <strong>header</strong>
-│       │      ├── <strong>horizontal-ruller.js</strong>
-│       │      ├── <strong>lists.js</strong>
-│       │      ├── <strong>node-delete.js</strong>
-│       │      ├── <strong>paragraph.js</strong>
-│       │      └── <strong>text-format.js</strong> 
+│       ├── <strong> Pages</strong>
+│       │    ├── <strong>Homepage.jsx</strong>
+│       │    ├── <strong>LoginPage.jsx</strong>
+│       │    ├── <strong>NotesPage.jsx</strong>
+│       │    └── <strong>SignupPage.jsx</strong>
 │       │ 
-│       ├── <strong> Renders</strong>
-│       │      ├── <strong>Format equation</strong>
-│       │      ├── <strong>Code-block</strong>
-│       │      └── <strong>image-capture</strong>
+│       ├── <strong>Redux</strong>
+│       │      ├── <strong>notes</strong>
+│       │      │           ├──<strong>note.action.js</strong>
+│       │      │           ├──<strong>note.reducer.js</strong>
+│       │      │           └──<strong>note.action.js</strong>
+│       │      ├── <strong>users</strong>
+│       │      │           ├──<strong>user.action.js</strong>
+│       │      │           ├──<strong>user.reducer.js</strong>
+│       │      │           └──<strong>user.action.js</strong>
+│       │      └── <strong>store.js</strong>
 │       │ 
-│       ├── <strong> Actions</strong>
-│       │ 
-│       ├── <strong> Constants</strong>
-│       │ 
-│       └── <strong> Reducers</strong>
+│       ├── <strong>routes</strong>
+│       │      ├── <strong>AllRoutes.jsx</strong>
+│       │      └── <strong>PrivateRoute.jsx</strong>
+│       │
 └── README.md
 </pre>
 
