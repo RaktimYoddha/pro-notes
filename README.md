@@ -54,10 +54,9 @@ Type-writer is a documenting web application with the support of many modern tec
 
 
 
-![](https://imgur.com/EXmDWRR)
+[Imgur](https://imgur.com/EXmDWRR)
 
-![](https://imgur.com/EUkGU7v)
-
+[Imgur](https://imgur.com/EUkGU7v)
 
 Get youtube [demo]() here
 
