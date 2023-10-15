@@ -76,17 +76,16 @@ This section will work you through how you can get started with the project.
 .
 ├── <strong>Backend</strong>
 │   │  
-│   ├── <strong>Controllers</strong>
-│   │
-│   ├── <strong>Models</strong>
-│   │
 │   ├── <strong>middlewares</strong>
 │   │
-│   ├── <strong>Routes</strong>
+│   ├── <strong>models</strong>
 │   │
-│   ├── <strong>Utils</strong>
-│   │  
-│   └── index.js
+│   ├── <strong>routes</strong>
+│   │
+│   ├── <strong>db.js</strong>
+│   │
+│   └── <strong>index.js</strong>
+│
 │ 
 ├── <strong>Pro-notes-frontend</strong>
 │   ├── <strong>public</strong>
